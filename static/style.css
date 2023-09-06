@@ -1,0 +1,136 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: gainsboro;
+}
+
+@font-face {
+    font-family: SuperBoys;
+    src: url(Super\ Boys.ttf);
+}
+
+@font-face {
+    font-family: BoldFont;
+    src: url(THEBOLDFONT.ttf);
+}
+
+#displayTitulo {
+    display: flex;
+    justify-content: space-around;
+}
+
+#titulo {
+    font-size: 64px;
+    margin-top: 36px;
+    font-family: BoldFont;
+    font-weight: 100;
+}
+
+#displayBotoes {
+    margin-top: 124px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#displayBotoes2 {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonHome {
+    width: 500px;
+    height: 64px;
+    border: black 2px solid;
+    border-radius: 25px;
+    font-size: 32px;
+    font-family: BoldFont;
+    font-weight: 100;
+}
+
+#addButton {
+    background-color: chartreuse;
+}
+
+#addButton:hover {
+    background-color: black;
+    color: white;
+}
+
+#remButton {
+    background-color:indianred;
+}
+
+#remButton:hover {
+    background-color: black;
+    color: white;
+}
+
+#viewButton {
+    background-color: aquamarine;
+    width: 850px;
+}
+
+#viewButton:hover {
+    background-color: black;
+    color: white;
+}
+
+#displayQuestionario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inputQuiz {
+    width: 420px;
+    height: 28px;
+    font-family: BoldFont;
+    font-size: 18px;
+    text-align: center;
+    border: black 2px solid;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.buttonQuiz {
+    width: 300px;
+    height: 28px;
+    font-family: BoldFont;
+    font-size: 18px;
+    text-align: center;
+    border: black 2px solid;
+    border-radius: 10px;
+    margin: 25px;
+    background-color: darkslategray;
+    color: white
+}
+
+.buttonQuiz:hover {
+    background-color: black;
+    color: white;
+}
+
+.buttonExit {
+    width: 200px;
+    height: 28px;
+    font-family: BoldFont;
+    font-size: 18px;
+    text-align: center;
+    border: black 2px solid;
+    border-radius: 10px;
+    margin: 25px;
+    background-color: red;
+    color: white
+}
+
+.buttonExit:hover {
+    background-color: black;
+}
+
+#limpartudobutton {
+    margin-top: 20px;
+    background-color: hotpink;
+    color: black;
+}
